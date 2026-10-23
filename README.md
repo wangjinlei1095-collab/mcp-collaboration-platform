@@ -4,7 +4,7 @@
 
 你可以在 Desktop 中直接操作，也可以通过 MCP 接入 AI 工具，使用“**交给 AI 或复制 ID 给 AI**”的方式，让 AI 读取项目背景、编辑内容、编写脚本、执行测试，或处理已授权的服务器、数据库与 Redis 任务。
 
-本目录为 **Windows 64 位 1.0.0 发行包**，包含 Desktop 和 Local API。两个组件均预设云端地址为 <https://mcpcollapi2.xckjart.com>，登录时无需另填云端地址。
+本目录为 **Windows 64 位 1.0.0 发行包**，包含 Desktop 和 Local API。
 
 ## 阅读目录
 
