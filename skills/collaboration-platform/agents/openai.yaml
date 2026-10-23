@@ -1,0 +1,3 @@
+interface:
+  display_name: "mcp协作平台"
+  short_description: "使用协作平台软件与 MCP 完成项目、文档、开发、测试和运维任务，并按需控制 token 消耗"
