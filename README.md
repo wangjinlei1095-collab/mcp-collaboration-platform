@@ -1,10 +1,10 @@
-# mcp协作平台 1.0.0
+# mcp协作平台 1.0.3
 
 **把项目、文档、表格、业务导图、代码上下文、自动化测试和运维资源放在同一套协作环境中，让成员与 AI 围绕同一个项目开展工作。同时通过按需读取、局部修改、增量输出和脚本流程复用，在适用场景下帮助用户节省大量 token。**
 
 你可以在 Desktop 中直接操作，也可以通过 MCP 接入 AI 工具，使用“**交给 AI 或复制 ID 给 AI**”的方式，让 AI 读取项目背景、编辑内容、编写脚本、执行测试，或处理已授权的服务器、数据库与 Redis 任务。
 
-本目录为 **Windows 64 位 1.0.0 发行包**，包含 Desktop 和 Local API。
+本目录为 **Windows 64 位 1.0.3 发行包**，包含 Desktop 和 Local API。
 
 ## 阅读目录
 
@@ -161,29 +161,16 @@ skills/collaboration-platform/
 
 ### 目录说明
 
-```text
-1.0.0/
-├─ README.md                 本文：软件功能与上手介绍
-├─ desktop/                  日常工作客户端
-│  ├─ platform-desktop.exe   Desktop 主程序
-│  ├─ platform-mcp.exe       供 AI 工具连接的本机 MCP 程序
-│  ├─ runtime/               Python 运行时资源
-│  └─ ...setup.exe           Desktop 安装程序
-└─ local-api/                本地服务与管理程序
-   ├─ platform-api.exe       带管理界面的 Local API
-   ├─ platform-server.exe    无界面服务程序
-   ├─ license-payload.bin    程序运行所需配套文件
-   ├─ platform.yaml.dist     配置示例
-   └─ ...setup.exe           Local API 安装程序
-```
+当前版本为 **1.0.3**。安装包保存在 `1.0.3/` 目录：
 
-| 组件 | 安装与运行 |
+| 组件 | 下载与安装 |
 | --- | --- |
-| Desktop | 运行 [Desktop 安装程序](desktop/platform-desktop-windows-amd64-1.0.0-setup.exe)，或直接运行 [platform-desktop.exe](desktop/platform-desktop.exe)。便携运行时保留同目录的 `platform-mcp.exe` 和 `runtime/`。 |
-| Local API | 运行 [Local API 安装程序](local-api/platform-local-api-windows-amd64-1.0.0-mcpcollapi2-setup.exe)，或运行 [platform-api.exe](local-api/platform-api.exe)，在管理界面完成配置。 |
-| 无界面服务 | 有无人值守需求时使用 [platform-server.exe](local-api/platform-server.exe)，按实际部署配置运行。不要与管理界面程序同时使用同一数据目录。 |
+| Desktop | 下载 [Desktop 1.0.3 安装程序](1.0.3/platform-desktop-windows-amd64-1.0.3-setup.exe)。安装后包含桌面程序、本机 MCP 程序和 Python 运行时。 |
+| Local API | 下载 [Local API 1.0.3 安装程序](1.0.3/platform-local-api-windows-amd64-1.0.3-mcpcollapi2-setup.exe)。安装后可选择管理界面或无界面服务。 |
 
-Local API 运行时需保留配套的 `license-payload.bin`。升级时保留已有配置、数据目录和实例身份；移动程序目录与迁移实例是两件不同的事。两个组件目录中的 `SHA256SUMS.txt` 和清单文件可用于核对发行文件。
+发行文件校验见 [SHA256SUMS.txt](1.0.3/SHA256SUMS.txt)，改动和升级要求见 [1.0.3 发布说明](1.0.3/release-notes.md)。
+
+Local API 运行时需保留配套的 `license-payload.bin`。升级保留已有配置、数据目录和实例身份；管理界面与无界面服务不要同时使用同一数据目录。
 
 ## 第一次使用
 
