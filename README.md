@@ -1,10 +1,10 @@
-# mcp协作平台 1.0.3
+# mcp协作平台 1.0.4
 
 **把项目、文档、表格、业务导图、代码上下文、自动化测试和运维资源放在同一套协作环境中，让成员与 AI 围绕同一个项目开展工作。同时通过按需读取、局部修改、增量输出和脚本流程复用，在适用场景下帮助用户节省大量 token。**
 
 你可以在 Desktop 中直接操作，也可以通过 MCP 接入 AI 工具，使用“**交给 AI 或复制 ID 给 AI**”的方式，让 AI 读取项目背景、编辑内容、编写脚本、执行测试，或处理已授权的服务器、数据库与 Redis 任务。
 
-本目录为 **Windows 64 位 1.0.3 发行包**，包含 Desktop 和 Local API。
+本目录为 **Windows 64 位 1.0.4 发行包**，包含 Desktop 和 Local API。
 
 ## 阅读目录
 
@@ -161,14 +161,14 @@ skills/collaboration-platform/
 
 ### 目录说明
 
-当前版本为 **1.0.3**。安装包保存在 `1.0.3/` 目录：
+当前版本为 **1.0.4**。安装包保存在 `1.0.4/` 目录：
 
 | 组件 | 下载与安装 |
 | --- | --- |
-| Desktop | 下载 [Desktop 1.0.3 安装程序](1.0.3/platform-desktop-windows-amd64-1.0.3-setup.exe)。安装后包含桌面程序、本机 MCP 程序和 Python 运行时。 |
-| Local API | 下载 [Local API 1.0.3 安装程序](1.0.3/platform-local-api-windows-amd64-1.0.3-mcpcollapi2-setup.exe)。安装后可选择管理界面或无界面服务。 |
+| Desktop | 下载 [Desktop 1.0.4 安装程序](1.0.4/platform-desktop-windows-amd64-1.0.4-setup.exe)。安装后包含桌面程序、本机 MCP 程序和 Python 运行时。 |
+| Local API | 下载 [Local API 1.0.4 安装程序](1.0.4/platform-local-api-windows-amd64-1.0.4-mcpcollapi2-setup.exe)。安装后可选择管理界面或无界面服务。 |
 
-发行文件校验见 [SHA256SUMS.txt](1.0.3/SHA256SUMS.txt)，改动和升级要求见 [1.0.3 发布说明](1.0.3/release-notes.md)。
+发行文件校验见 [SHA256SUMS.txt](1.0.4/SHA256SUMS.txt)，改动和升级要求见 [1.0.4 发布说明](1.0.4/release-notes.md)。
 
 Local API 运行时需保留配套的 `license-payload.bin`。升级保留已有配置、数据目录和实例身份；管理界面与无界面服务不要同时使用同一数据目录。
 
