@@ -1,0 +1,2 @@
+69a1ccbf1b9588ed55ba829619078ec7ff273a5db26a0e240b617b1b787651bf  platform-desktop-windows-amd64-1.0.5-setup.exe
+323646e5bc4ae3e038f8e9a76577c3aeda445feb4435535f8fc8b8abd783adca  platform-local-api-windows-amd64-1.0.5-mcpcollapi2-setup.exe
